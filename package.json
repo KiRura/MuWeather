@@ -1,0 +1,19 @@
+{
+  "name": "muweather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiRura/MuWeather.git"
+  },
+  "author": "KiRura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KiRura/MuWeather/issues"
+  },
+  "homepage": "https://github.com/KiRura/MuWeather#readme"
+}
