@@ -2,9 +2,9 @@
   "name": "muweather",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "main.cjs",
   "scripts": {
-    "test": "node main.js"
+    "test": "node main.cjs"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,19 @@
   "bugs": {
     "url": "https://github.com/KiRura/MuWeather/issues"
   },
-  "homepage": "https://github.com/KiRura/MuWeather#readme"
+  "homepage": "https://github.com/KiRura/MuWeather#readme",
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "ping": "^0.4.4",
+    "tslog": "^4.9.2"
+  }
 }
